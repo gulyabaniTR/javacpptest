@@ -1,0 +1,630 @@
+0SECTION       TITLE subcomponent dump routine
+NULL           ===============================
+1TICHARSET     857
+1TISIGINFO     Dump Event "gpf" (00002000) received
+1TIDATETIMEUTC Date: 2022/12/28 at 22:06:05:257 (UTC)
+1TIDATETIME    Date: 2022/12/29 at 01:06:05:257
+1TITIMEZONE    Timezone: (unavailable)
+1TINANOTIME    System nanotime: 569984727543000
+1TIFILENAME    Javacore filename:    C:\Users\555ne\Desktop\javacpp\javacpptest\javacore.20221229.010545.30212.0002.txt
+1TIREQFLAGS    Request Flags: 0x41 (exclusive+preempt)
+1TIPREPSTATE   Prep State: 0x80 (trace_disabled)
+1TIPREPINFO    Exclusive VM access not taken: data may not be consistent across javacore sections
+NULL           ------------------------------------------------------------------------
+0SECTION       GPINFO subcomponent dump routine
+NULL           ================================
+2XHOSLEVEL     OS Level         : Windows 10 10.0 build 19045
+2XHCPUS        Processors -
+3XHCPUARCH       Architecture   : amd64
+3XHNUMCPUS       How Many       : 8
+3XHNUMASUP       NUMA is either not supported or has been disabled by user
+NULL
+1XHEXCPCODE    Windows_ExceptionCode: C0000005
+1XHEXCPCODE    J9Generic_Signal: 00000004
+1XHEXCPCODE    ExceptionAddress: 00000242A47912FB
+1XHEXCPCODE    ContextFlags: 0010005F
+1XHEXCPCODE    Handler1: 00007FFD74EE8EC0
+1XHEXCPCODE    Handler2: 00007FFDA20FAA50
+1XHEXCPCODE    InaccessibleWriteAddress: 0000000000000000
+NULL
+1XHEXCPMODULE  Module: C:\Users\555ne\.javacpp\cache\ffmpeg-5.1.2-1.5.8-windows-x86_64.jar\org\bytedeco\ffmpeg\windows-x86_64\avformat-59.dll
+1XHEXCPMODULE  Module_base_address: 00000242A4760000
+1XHEXCPMODULE  Offset_in_DLL: 00000000000312FB
+NULL
+1XHREGISTERS   Registers:
+2XHREGISTER      RDI: FFFFFF9B6BB013D0
+2XHREGISTER      RSI: 0000000000000000
+2XHREGISTER      RAX: 000002428285EC10
+2XHREGISTER      RBX: 000000000000000A
+2XHREGISTER      RCX: 0000000000000000
+2XHREGISTER      RDX: 000002428285EC10
+2XHREGISTER      R8: 0000000000000002
+2XHREGISTER      R9: 0000000000000000
+2XHREGISTER      R10: 00007FFDC75E0000
+2XHREGISTER      R11: 00007FFDC75E15D1
+2XHREGISTER      R12: 0000000000B84100
+2XHREGISTER      R13: 0000000000000000
+2XHREGISTER      R14: 000002428285EC10
+2XHREGISTER      R15: 000000006ABFB3B0
+2XHREGISTER      XMM0: 70706D61785C3A43
+2XHREGISTER      XMM1: 70706D61785C3A43
+2XHREGISTER      XMM2: 0000000000000000
+2XHREGISTER      XMM3: 0000000000BEA658
+2XHREGISTER      XMM4: 0000000000000000
+2XHREGISTER      XMM5: 6176616A5C73636F
+2XHREGISTER      XMM6: 0000000000000000
+2XHREGISTER      XMM7: 0000000000000000
+2XHREGISTER      XMM8: 000000003F800000
+2XHREGISTER      XMM9: 0000000000000000
+2XHREGISTER      XMM10: 0000000000000000
+2XHREGISTER      XMM11: 0000000000000000
+2XHREGISTER      XMM12: 0000000000000000
+2XHREGISTER      XMM13: 0000000000000000
+2XHREGISTER      XMM14: 0000000000000000
+2XHREGISTER      XMM15: 0000000000000000
+2XHREGISTER      RIP: 00000242A47912FB
+2XHREGISTER      RSP: 00000064944FE920
+2XHREGISTER      RBP: 00000064944FEA18
+2XHREGISTER      EFLAGS: 0000000000010246
+2XHREGISTER      FS: 0053
+2XHREGISTER      ES: 002B
+2XHREGISTER      DS: 002B
+NULL
+1XHFLAGS       VM flags:0000000000040000
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       ENVINFO subcomponent dump routine
+NULL           =================================
+1CIJAVAVERSION JRE 17 Windows 10 amd64-64 (build 17.0.5+8)
+1CIVMVERSION   20221018_298
+1CIJ9VMTAG     openj9-0.35.0
+1CIJ9VMVERSION e04a7f6c1
+1CIJITVERSION  j9jit_20221031_1759_jenkins
+1CIOMRVERSION  85a21674f_CMPRSS
+1CIJCLVERSION  32d2c409a33 based on jdk-17.0.5+8
+1CIVENDOR      IBM Corporation
+1CIPRODUCT     IBM Semeru Runtime
+1CIEXTVERSION  17.0.5.0
+1CIJITMODES    JIT enabled, AOT enabled, FSD disabled, HCR enabled
+1CIRUNNINGAS   Running as an embedded JVM
+1CIVMIDLESTATE VM Idle State: ACTIVE
+1CICONTINFO    Running in container : FALSE
+1CICGRPINFO    JVM support for cgroups enabled : FALSE
+1CISTARTTIME   JVM start time: 2022/12/29 at 01:05:36:887
+1CISTARTNANO   JVM start nanotime: 569956357354100
+1CIPROCESSID   Process ID: 30212 (0x7604)
+1CICMDLINE     C:\Users\555ne\.jdks\semeru-17.0.5\bin\java.exe -XX:TieredStopAtLevel=1 -cp C:\Users\555ne\Desktop\javacpp\javacpptest\target\classes;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot\3.0.1\spring-boot-3.0.1.jar;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.1\spring-boot-autoconfigure-3.0.1.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\555ne\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar;C:\Users\555ne\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\555ne\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.1\jackson-module-parameter-names-2.14.1.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.4\tomcat-embed-core-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.4\tomcat-embed-el-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.4\tomcat-embed-websocket-10.1.4.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-web\6.0.3\spring-web-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-beans\6.0.3\spring-beans-6.0.3.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-observation\1.10.2\micrometer-observation-1.10.2.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-commons\1.10.2\micrometer-commons-1.10.2.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-webmvc\6.0.3\spring-webmvc-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-aop\6.0.3\spring-aop-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-context\6.0.3\spring-context-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-expression\6.0.3\spring-expression-6.0.3.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg-platform\5.1.2-1.5.8\ffmpeg-platform-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp-platform\1.5.8\javacpp-platform-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-core\6.0.3\spring-core-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-jcl\6.0.3\spring-jcl-6.0.3.jar com.cagatay.javacpptest.JavacpptestApplication
+1CIJAVAHOMEDIR Java Home Dir:   C:\Users\555ne\.jdks\semeru-17.0.5
+1CIJAVADLLDIR  Java DLL Dir:    C:\Users\555ne\.jdks\semeru-17.0.5\bin
+1CISYSCP       Sys Classpath:   
+1CIUSERARGS    UserArgs:
+2CIUSERARG               -Xoptionsfile=C:\Users\555ne\.jdks\semeru-17.0.5\lib\options.default
+2CIUSERARG               -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+2CIUSERARG               -XX:+EnsureHashed:java/lang/Class,java/lang/Thread
+2CIUSERARG               -Xjcl:jclse29
+2CIUSERARG               -Dcom.ibm.oti.vm.bootstrap.library.path=C:\Users\555ne\.jdks\semeru-17.0.5\bin\default;C:\Users\555ne\.jdks\semeru-17.0.5\bin
+2CIUSERARG               -Dsun.boot.library.path=C:\Users\555ne\.jdks\semeru-17.0.5\bin\default;C:\Users\555ne\.jdks\semeru-17.0.5\bin
+2CIUSERARG               -Djava.library.path=C:\Users\555ne\.jdks\semeru-17.0.5\bin\default;C:\Users\555ne\.jdks\semeru-17.0.5\bin;C:\Windows\system32;C:\Windows;C:\tools\ruby31\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ffmpeg;C:\apache-maven-3.8.4\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\tools\dart-sdk\bin;C:\sdk\flutter\bin;C:\Program Files\Go\bin;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\yt-dlp;C:\Users\555ne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\555ne\AppData\Local\Programs\Python\Python39\;C:\Users\555ne\AppData\Local\Microsoft\WindowsApps;C:\Users\555ne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\555ne\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;;C:\ffmpeg;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\Composer\vendor\bin;C:\tools\dart-sdk\bin;C:\Users\555ne\AppData\Roaming\Pub\Cache\bin;C:\sdk\flutter\bin;C:\tools\dart-sdk\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\555ne\go\bin;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\tools\neovim\nvim-win64\bin;C:\yt-dlp;;.
+2CIUSERARG               -Djava.home=C:\Users\555ne\.jdks\semeru-17.0.5
+2CIUSERARG               -Duser.dir=C:\Users\555ne\Desktop\javacpp\javacpptest
+2CIUSERARG               -XX:TieredStopAtLevel=1
+2CIUSERARG               -Djava.class.path=C:\Users\555ne\Desktop\javacpp\javacpptest\target\classes;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot\3.0.1\spring-boot-3.0.1.jar;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.1\spring-boot-autoconfigure-3.0.1.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\555ne\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar;C:\Users\555ne\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\555ne\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.1\jackson-module-parameter-names-2.14.1.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.4\tomcat-embed-core-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.4\tomcat-embed-el-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.4\tomcat-embed-websocket-10.1.4.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-web\6.0.3\spring-web-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-beans\6.0.3\spring-beans-6.0.3.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-observation\1.10.2\micrometer-observation-1.10.2.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-commons\1.10.2\micrometer-commons-1.10.2.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-webmvc\6.0.3\spring-webmvc-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-aop\6.0.3\spring-aop-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-context\6.0.3\spring-context-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-expression\6.0.3\spring-expression-6.0.3.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg-platform\5.1.2-1.5.8\ffmpeg-platform-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp-platform\1.5.8\javacpp-platform-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-core\6.0.3\spring-core-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-jcl\6.0.3\spring-jcl-6.0.3.jar
+2CIUSERARG               -Dsun.java.command=com.cagatay.javacpptest.JavacpptestApplication
+2CIUSERARG               -Dsun.java.launcher=SUN_STANDARD
+NULL
+1CIIGNOREDARGS Ignored Args:
+2CIIGNOREDARG            -XX:TieredStopAtLevel=1
+NULL
+1CIUSERLIMITS  User Limits (in bytes except for NOFILE and NPROC)
+NULL           ------------------------------------------------------------------------
+2CIULIMITERR   Not supported on this platform
+NULL
+1CIENVVARS     Environment Variables (may include system defined environment variables)
+NULL           ------------------------------------------------------------------------
+2CIENVVAR      =::=::\
+2CIENVVAR      =D:=D:\
+2CIENVVAR      ALLUSERSPROFILE=C:\ProgramData
+2CIENVVAR      APPDATA=C:\Users\555ne\AppData\Roaming
+2CIENVVAR      ChocolateyInstall=C:\ProgramData\chocolatey
+2CIENVVAR      ChocolateyLastPathUpdate=133087401927121081
+2CIENVVAR      ChocolateyToolsLocation=C:\tools
+2CIENVVAR      CommonProgramFiles=C:\Program Files\Common Files
+2CIENVVAR      CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+2CIENVVAR      CommonProgramW6432=C:\Program Files\Common Files
+2CIENVVAR      COMPUTERNAME=DESKTOP-P4UP10P
+2CIENVVAR      ComSpec=C:\Windows\system32\cmd.exe
+2CIENVVAR      DriverData=C:\Windows\System32\Drivers\DriverData
+2CIENVVAR      GOPATH=C:\Users\555ne\go
+2CIENVVAR      HOMEDRIVE=C:
+2CIENVVAR      HOMEPATH=\Users\555ne
+2CIENVVAR      IDEA_INITIAL_DIRECTORY=C:\Users\555ne\Desktop\javacpp
+2CIENVVAR      IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;
+2CIENVVAR      LOCALAPPDATA=C:\Users\555ne\AppData\Local
+2CIENVVAR      LOGONSERVER=\\DESKTOP-P4UP10P
+2CIENVVAR      MAVEN_HOME=C:\apache-maven-3.8.4
+2CIENVVAR      NODE_PATH=C:\Users\555ne\AppData\Roaming\npm
+2CIENVVAR      NUMBER_OF_PROCESSORS=8
+2CIENVVAR      NVM_HOME=C:\Users\555ne\AppData\Roaming\nvm
+2CIENVVAR      NVM_SYMLINK=C:\Program Files\nodejs
+2CIENVVAR      OneDrive=C:\Users\555ne\OneDrive
+2CIENVVAR      OPENJ9_JAVA_COMMAND_LINE=C:\Users\555ne\.jdks\semeru-17.0.5\bin\java.exe -XX:TieredStopAtLevel=1 -cp C:\Users\555ne\Desktop\javacpp\javacpptest\target\classes;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot\3.0.1\spring-boot-3.0.1.jar;C:\Users\555ne\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.1\spring-boot-autoconfigure-3.0.1.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\555ne\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar;C:\Users\555ne\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\555ne\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar;C:\Users\555ne\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\555ne\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;C:\Users\555ne\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.1\jackson-module-parameter-names-2.14.1.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.4\tomcat-embed-core-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.4\tomcat-embed-el-10.1.4.jar;C:\Users\555ne\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.4\tomcat-embed-websocket-10.1.4.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-web\6.0.3\spring-web-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-beans\6.0.3\spring-beans-6.0.3.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-observation\1.10.2\micrometer-observation-1.10.2.jar;C:\Users\555ne\.m2\repository\io\micrometer\micrometer-commons\1.10.2\micrometer-commons-1.10.2.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-webmvc\6.0.3\spring-webmvc-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-aop\6.0.3\spring-aop-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-context\6.0.3\spring-context-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-expression\6.0.3\spring-expression-6.0.3.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg-platform\5.1.2-1.5.8\ffmpeg-platform-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp-platform\1.5.8\javacpp-platform-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-ios-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\javacpp\1.5.8\javacpp-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-android-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-armhf.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-linux-ppc64le.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-arm64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-macosx-x86_64.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86.jar;C:\Users\555ne\.m2\repository\org\bytedeco\ffmpeg\5.1.2-1.5.8\ffmpeg-5.1.2-1.5.8-windows-x86_64.jar;C:\Users\555ne\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-core\6.0.3\spring-core-6.0.3.jar;C:\Users\555ne\.m2\repository\org\springframework\spring-jcl\6.0.3\spring-jcl-6.0.3.jar com.cagatay.javacpptest.JavacpptestApplication
+2CIENVVAR      OS=Windows_NT
+2CIENVVAR      Path=C:\tools\ruby31\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ffmpeg;C:\apache-maven-3.8.4\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\tools\dart-sdk\bin;C:\sdk\flutter\bin;C:\Program Files\Go\bin;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\yt-dlp;C:\Users\555ne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\555ne\AppData\Local\Programs\Python\Python39\;C:\Users\555ne\AppData\Local\Microsoft\WindowsApps;C:\Users\555ne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\555ne\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;;C:\ffmpeg;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\Composer\vendor\bin;C:\tools\dart-sdk\bin;C:\Users\555ne\AppData\Roaming\Pub\Cache\bin;C:\sdk\flutter\bin;C:\tools\dart-sdk\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\555ne\go\bin;C:\Users\555ne\AppData\Roaming\npm;C:\Users\555ne\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\tools\neovim\nvim-win64\bin;C:\yt-dlp;
+2CIENVVAR      PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+2CIENVVAR      PROCESSOR_ARCHITECTURE=AMD64
+2CIENVVAR      PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2CIENVVAR      PROCESSOR_LEVEL=6
+2CIENVVAR      PROCESSOR_REVISION=8c01
+2CIENVVAR      ProgramData=C:\ProgramData
+2CIENVVAR      ProgramFiles=C:\Program Files
+2CIENVVAR      ProgramFiles(x86)=C:\Program Files (x86)
+2CIENVVAR      ProgramW6432=C:\Program Files
+2CIENVVAR      PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+2CIENVVAR      PUBLIC=C:\Users\Public
+2CIENVVAR      SESSIONNAME=Console
+2CIENVVAR      SystemDrive=C:
+2CIENVVAR      SystemRoot=C:\Windows
+2CIENVVAR      TEMP=C:\Users\555ne\AppData\Local\Temp
+2CIENVVAR      TMP=C:\Users\555ne\AppData\Local\Temp
+2CIENVVAR      USERDOMAIN=DESKTOP-P4UP10P
+2CIENVVAR      USERDOMAIN_ROAMINGPROFILE=DESKTOP-P4UP10P
+2CIENVVAR      USERNAME=555ne
+2CIENVVAR      USERPROFILE=C:\Users\555ne
+2CIENVVAR      windir=C:\Windows
+2CIENVVAR      ZES_ENABLE_SYSMAN=1
+2CIENVVAR      __PSLockDownPolicy=0
+NULL
+1CISYSINFO     System Information
+NULL           ------------------------------------------------------------------------
+2CISYSINFO     Hypervisor name = Hyper-V
+NULL
+1CICPUINFO     CPU Information
+NULL           ------------------------------------------------------------------------
+2CIPHYSCPU     Physical CPUs: 8
+2CIONLNCPU     Online CPUs: 8
+2CIBOUNDCPU    Bound CPUs: 8
+2CIACTIVECPU   Active CPUs: 0
+2CITARGETCPU   Target CPUs: 8
+2CIJITFEATURE  CPU features (JIT): fpu cx8 cmov mmx sse sse2 sse3 ssse3 fma sse4_1 popcnt aesni osxsave avx fdp_excptn_only avx512dq rdseed avx512vl null
+2CIAOTFEATURE  CPU features (AOT): fpu cx8 cmov mmx sse sse2 sse3 ssse3 fma sse4_1 popcnt aesni osxsave avx fdp_excptn_only avx512dq rdseed avx512vl null
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       NATIVEMEMINFO subcomponent dump routine
+NULL           =================================
+0MEMUSER
+1MEMUSER       JRE: 5,208,849,552 bytes / 9791 allocations
+1MEMUSER       |
+2MEMUSER       +--VM: 4,906,266,952 bytes / 9329 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Classes: 354,517,560 bytes / 1777 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Shared Class Cache: 314,572,800 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 39,944,760 bytes / 1776 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Modules: 560,896 bytes / 2259 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Memory Manager (GC): 4,327,844,192 bytes / 809 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Heap: 4,242,403,328 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 85,440,864 bytes / 808 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Threads: 24,576,360 bytes / 157 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Stack: 568,768 bytes / 38 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Native Stack: 23,724,032 bytes / 39 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 283,560 bytes / 80 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Trace: 367,912 bytes / 331 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JVMTI: 17,776 bytes / 13 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JNI: 657,072 bytes / 2473 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Port Library: 196,365,624 bytes / 78 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Unused <32bit allocation regions: 196,353,880 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 11,744 bytes / 77 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 1,359,560 bytes / 1432 allocations
+1MEMUSER       |
+2MEMUSER       +--JIT: 302,546,808 bytes / 439 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Code Cache: 268,435,456 bytes / 1 allocation
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Data Cache: 6,291,648 bytes / 3 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 27,819,704 bytes / 435 allocations
+1MEMUSER       |
+2MEMUSER       +--Class Libraries: 35,792 bytes / 23 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--VM Class Libraries: 35,792 bytes / 23 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--sun.misc.Unsafe: 25,504 bytes / 11 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Direct Byte Buffers: 17,072 bytes / 8 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Other: 8,432 bytes / 3 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 10,288 bytes / 12 allocations
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       MEMINFO subcomponent dump routine
+NULL           =================================
+NULL
+1STHEAPTYPE    Object Memory
+NULL           id                 start              end                size               space/region
+1STHEAPSPACE   0x000002428410EEC0         --                 --                 --         Generational
+1STHEAPREGION  0x00000242825C9E80 0x0000000703220000 0x0000000704190000 0x0000000000F70000 Generational/Tenured Region
+1STHEAPREGION  0x00000242825CA040 0x00000007FFA30000 0x00000007FFF50000 0x0000000000520000 Generational/Nursery Region
+1STHEAPREGION  0x00000242825C9B00 0x00000007FFF50000 0x00000007FFFF0000 0x00000000000A0000 Generational/Nursery Region
+NULL
+1STHEAPTOTAL   Total memory:                    22216704 (0x0000000001530000)
+1STHEAPINUSE   Total memory in use:             19813584 (0x00000000012E54D0)
+1STHEAPFREE    Total memory free:                2403120 (0x000000000024AB30)
+NULL
+1STSEGTYPE     Internal Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x000002428410DF10 0x00007FF444210000 0x00007FF444210000 0x00007FF445210000 0x01000440 0x0000000001000000
+1STSEGMENT     0x00000242A3399AE0 0x00000242A50C9060 0x00000242A50DAA90 0x00000242A51C9060 0x00800040 0x0000000000100000
+1STSEGMENT     0x00000242A3399A18 0x00000242A42BD060 0x00000242A43BD050 0x00000242A43BD060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E488 0x00000242A3D9C060 0x00000242A3E9C040 0x00000242A3E9C060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E550 0x00000242A3A76060 0x00000242A3B76060 0x00000242A3B76060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E3C0 0x00000242A2994060 0x00000242A2A94040 0x00000242A2A94060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E2F8 0x00000242A288B060 0x00000242A298B060 0x00000242A298B060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E230 0x00000242A277A060 0x00000242A287A040 0x00000242A287A060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E168 0x00000242A2660060 0x00000242A2760040 0x00000242A2760060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410E0A0 0x00000242A1D55060 0x00000242A1E55050 0x00000242A1E55060 0x00800040 0x0000000000100000
+1STSEGMENT     0x000002428410DE48 0x0000024284DB5060 0x0000024284EB5060 0x0000024284EB5060 0x00800040 0x0000000000100000
+NULL
+1STSEGTOTAL    Total memory:                    27262976 (0x0000000001A00000)
+1STSEGINUSE    Total memory in use:              9509264 (0x0000000000911990)
+1STSEGFREE     Total memory free:               17753712 (0x00000000010EE670)
+NULL
+1STSEGTYPE     Class Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00000242A339CF08 0x0000000000CD05B0 0x0000000000CD85B0 0x0000000000CD85B0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339CE40 0x0000000000CC8560 0x0000000000CD0560 0x0000000000CD0560 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339CD78 0x00000242A3056CA0 0x00000242A30623F8 0x00000242A3076CA0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3395CA0 0x0000000000CC0510 0x0000000000CC8510 0x0000000000CC8510 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395BD8 0x0000000000CB84C0 0x0000000000CC04C0 0x0000000000CC04C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395B10 0x0000000000CB0470 0x0000000000CB8470 0x0000000000CB8470 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395A48 0x0000000000CA8420 0x0000000000CB0420 0x0000000000CB0420 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395980 0x00000242A3036C50 0x00000242A3056A90 0x00000242A3056C50 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A33958B8 0x0000000000CA03D0 0x0000000000CA83D0 0x0000000000CA83D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33957F0 0x0000000000C98380 0x0000000000CA0380 0x0000000000CA0380 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395728 0x0000000000C90330 0x0000000000C98330 0x0000000000C98330 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395660 0x0000000000C882E0 0x0000000000C902E0 0x0000000000C902E0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3395598 0x00000242A3016C00 0x00000242A30367A0 0x00000242A3036C00 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A339C360 0x0000000000C80290 0x0000000000C88290 0x0000000000C88290 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C298 0x0000000000C78240 0x0000000000C80240 0x0000000000C80240 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C1D0 0x0000000000C701F0 0x0000000000C781F0 0x0000000000C781F0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C108 0x0000000000C62DF8 0x0000000000C701A0 0x0000000000C701A0 0x00010040 0x000000000000D3A8
+1STSEGMENT     0x00000242A339C040 0x00000242A1ED1C50 0x00000242A1F039C8 0x00000242A1F03BE8 0x00020040 0x0000000000031F98
+1STSEGMENT     0x00000242A339BF78 0x0000000000B83618 0x0000000000B83AB8 0x0000000000B83AB8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A339BEB0 0x0000024284D41AD0 0x0000024284D41D28 0x0000024284D41F00 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A339BDE8 0x0000000000C5ADA8 0x0000000000C62DA8 0x0000000000C62DA8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339BD20 0x0000000000C52D58 0x0000000000C5AD58 0x0000000000C5AD58 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339BC58 0x00000242A35D8480 0x00000242A35F8260 0x00000242A35F8480 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A339CBF0 0x0000000000C4AD08 0x0000000000C52D08 0x0000000000C52D08 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339CB28 0x0000000000C42CB8 0x0000000000C4ACB8 0x0000000000C4ACB8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339CA60 0x00000242A3590410 0x00000242A35B0130 0x00000242A35B0410 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A339C998 0x0000000000C3AC68 0x0000000000C42C68 0x0000000000C42C68 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C8D0 0x0000000000B82518 0x0000000000B829B8 0x0000000000B829B8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A339C808 0x00000242A223F9F0 0x00000242A223FF58 0x00000242A223FF58 0x00020040 0x0000000000000568
+1STSEGMENT     0x00000242A339C740 0x0000000000C32C18 0x0000000000C3AC18 0x0000000000C3AC18 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C678 0x0000000000C2ABC8 0x0000000000C32BC8 0x0000000000C32BC8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A339C5B0 0x00000242A356F340 0x00000242A358EFC8 0x00000242A358F340 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A339C4E8 0x0000000000C22B78 0x0000000000C2AB78 0x0000000000C2AB78 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3394B80 0x0000000000C1AB28 0x0000000000C22B28 0x0000000000C22B28 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3394AB8 0x00000242A35484F0 0x00000242A35681F8 0x00000242A35684F0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A33949F0 0x0000000000C12AD8 0x0000000000C1AAD8 0x0000000000C1AAD8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3394928 0x0000000000C0AA88 0x0000000000C12A88 0x0000000000C12A88 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3394860 0x0000000000B82058 0x0000000000B824C8 0x0000000000B824C8 0x00010040 0x0000000000000470
+1STSEGMENT     0x00000242A3394798 0x00000242A2D37470 0x00000242A2D378D0 0x00000242A2D378D0 0x00020040 0x0000000000000460
+1STSEGMENT     0x00000242A33946D0 0x0000000000B81B68 0x0000000000B82008 0x0000000000B82008 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3394608 0x00000242A3347D00 0x00000242A3348240 0x00000242A3348240 0x00020040 0x0000000000000540
+1STSEGMENT     0x00000242A3394540 0x0000000000B81588 0x0000000000B81B18 0x0000000000B81B18 0x00010040 0x0000000000000590
+1STSEGMENT     0x00000242A3394478 0x00000242A34B5B40 0x00000242A34B62B8 0x00000242A34B62B8 0x00020040 0x0000000000000778
+1STSEGMENT     0x00000242A3396530 0x0000000000B80FC8 0x0000000000B81538 0x0000000000B81538 0x00010040 0x0000000000000570
+1STSEGMENT     0x00000242A3396468 0x00000242A223F2A0 0x00000242A223F9A0 0x00000242A223F9A0 0x00020040 0x0000000000000700
+1STSEGMENT     0x00000242A33963A0 0x00000000001187F8 0x0000000000118D48 0x0000000000118D48 0x00010040 0x0000000000000550
+1STSEGMENT     0x00000242A33962D8 0x00000242A223EB90 0x00000242A223F250 0x00000242A223F250 0x00020040 0x00000000000006C0
+1STSEGMENT     0x00000242A3396210 0x0000000000118268 0x00000000001187A8 0x00000000001187A8 0x00010040 0x0000000000000540
+1STSEGMENT     0x00000242A3396148 0x00000242A223E4B0 0x00000242A223EB40 0x00000242A223EB40 0x00020040 0x0000000000000690
+1STSEGMENT     0x00000242A3396080 0x0000000000117CE8 0x0000000000118218 0x0000000000118218 0x00010040 0x0000000000000530
+1STSEGMENT     0x00000242A3395FB8 0x00000242A223DE00 0x00000242A223E468 0x00000242A223E468 0x00020040 0x0000000000000668
+1STSEGMENT     0x00000242A3395EF0 0x0000000000117788 0x0000000000117C98 0x0000000000117C98 0x00010040 0x0000000000000510
+1STSEGMENT     0x00000242A3395E28 0x00000242A33C4E60 0x00000242A33C5470 0x00000242A33C5470 0x00020040 0x0000000000000610
+1STSEGMENT     0x00000242A339BAD0 0x0000000000117248 0x0000000000117738 0x0000000000117738 0x00010040 0x00000000000004F0
+1STSEGMENT     0x00000242A339BA08 0x00000242A33C4850 0x00000242A33C4E18 0x00000242A33C4E18 0x00020040 0x00000000000005C8
+1STSEGMENT     0x00000242A339B940 0x0000000000116D28 0x00000000001171F8 0x00000000001171F8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A339B878 0x00000242A33C4290 0x00000242A33C4800 0x00000242A33C4800 0x00020040 0x0000000000000570
+1STSEGMENT     0x00000242A339B7B0 0x0000000000116818 0x0000000000116CD8 0x0000000000116CD8 0x00010040 0x00000000000004C0
+1STSEGMENT     0x00000242A339B6E8 0x00000242A33498D0 0x00000242A3349E10 0x00000242A3349E10 0x00020040 0x0000000000000540
+1STSEGMENT     0x00000242A339B620 0x0000000000116318 0x00000000001167C8 0x00000000001167C8 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A339B558 0x00000242A3347770 0x00000242A3347C88 0x00000242A3347C88 0x00020040 0x0000000000000518
+1STSEGMENT     0x00000242A339B490 0x0000000000115E38 0x00000000001162C8 0x00000000001162C8 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A339B3C8 0x00000242A24123E0 0x00000242A2412880 0x00000242A2412880 0x00020040 0x00000000000004A0
+1STSEGMENT     0x00000242A33931D0 0x0000000000C02A38 0x0000000000C0AA38 0x0000000000C0AA38 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3393108 0x00000242A35132C0 0x00000242A3533000 0x00000242A35332C0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3393040 0x0000000000BFA9E8 0x0000000000C029E8 0x0000000000C029E8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3392F78 0x0000000000BF2998 0x0000000000BFA998 0x0000000000BFA998 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3392EB0 0x0000000000115948 0x0000000000115DE8 0x0000000000115DE8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3392DE8 0x00000242A311A9D0 0x00000242A311AEA0 0x00000242A311AEA0 0x00020040 0x00000000000004D0
+1STSEGMENT     0x00000242A3392D20 0x0000000000115428 0x00000000001158F8 0x00000000001158F8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A3392C58 0x00000242840FAD90 0x00000242840FB378 0x00000242840FB378 0x00020040 0x00000000000005E8
+1STSEGMENT     0x00000242A3392B90 0x0000000000114F38 0x00000000001153D8 0x00000000001153D8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3392AC8 0x00000242A311A480 0x00000242A311A978 0x00000242A311A978 0x00020040 0x00000000000004F8
+1STSEGMENT     0x00000242A3393A60 0x0000000000114A18 0x0000000000114EE8 0x0000000000114EE8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A3393998 0x00000242840FA720 0x00000242840FAD48 0x00000242840FAD48 0x00020040 0x0000000000000628
+1STSEGMENT     0x00000242A33938D0 0x0000000000BD56E8 0x0000000000BDD6E8 0x0000000000BDD6E8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3393808 0x0000000000BCD698 0x0000000000BD5698 0x0000000000BD5698 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3393740 0x00000242A34EC470 0x00000242A350C120 0x00000242A350C470 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3393678 0x0000000000BBE548 0x0000000000BC6548 0x0000000000BC6548 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33935B0 0x0000000000BAEC28 0x0000000000BB6C28 0x0000000000BB6C28 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33934E8 0x0000000000BA6BD8 0x0000000000BAEBD8 0x0000000000BAEBD8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3393420 0x0000000000B78F78 0x0000000000B80F78 0x0000000000B80F78 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3393358 0x0000000000B70F28 0x0000000000B78F28 0x0000000000B78F28 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3392940 0x0000000000B70A68 0x0000000000B70ED8 0x0000000000B70ED8 0x00010040 0x0000000000000470
+1STSEGMENT     0x00000242A3392878 0x00000242A2D21A60 0x00000242A2D21E98 0x00000242A2D21E98 0x00020040 0x0000000000000438
+1STSEGMENT     0x00000242A33927B0 0x0000000000B70578 0x0000000000B70A18 0x0000000000B70A18 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A33926E8 0x00000242A3346C50 0x00000242A3347170 0x00000242A3347170 0x00020040 0x0000000000000520
+1STSEGMENT     0x00000242A3392620 0x0000000000B70078 0x0000000000B70528 0x0000000000B70528 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A3392558 0x00000242A33466C0 0x00000242A3346BE8 0x00000242A3346BE8 0x00020040 0x0000000000000528
+1STSEGMENT     0x00000242A3392490 0x0000000000B6FB88 0x0000000000B70028 0x0000000000B70028 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A33923C8 0x00000242A33471E0 0x00000242A3347700 0x00000242A3347700 0x00020040 0x0000000000000520
+1STSEGMENT     0x00000242A3392300 0x0000000000B6F6C8 0x0000000000B6FB38 0x0000000000B6FB38 0x00010040 0x0000000000000470
+1STSEGMENT     0x00000242A3392238 0x00000242A2D34450 0x00000242A2D348B0 0x00000242A2D348B0 0x00020040 0x0000000000000460
+1STSEGMENT     0x00000242A3399000 0x0000000000B6F1D8 0x0000000000B6F678 0x0000000000B6F678 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3398F38 0x00000242A2D214D0 0x00000242A2D21A10 0x00000242A2D21A10 0x00020040 0x0000000000000540
+1STSEGMENT     0x00000242A3398E70 0x0000000000B6ECD8 0x0000000000B6F188 0x0000000000B6F188 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A3398DA8 0x00000242A2D20F30 0x00000242A2D21480 0x00000242A2D21480 0x00020040 0x0000000000000550
+1STSEGMENT     0x00000242A3398CE0 0x0000000000B6E7E8 0x0000000000B6EC88 0x0000000000B6EC88 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3398C18 0x00000242A31098D0 0x00000242A3109E18 0x00000242A3109E18 0x00020040 0x0000000000000548
+1STSEGMENT     0x00000242A3398B50 0x0000000000B6E2F8 0x0000000000B6E798 0x0000000000B6E798 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3398A88 0x00000242A310A240 0x00000242A310A498 0x00000242A310A670 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A33989C0 0x0000000000B662A8 0x0000000000B6E2A8 0x0000000000B6E2A8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33988F8 0x00000242A348CC60 0x00000242A34ACA30 0x00000242A34ACC60 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3399890 0x0000000000B5E258 0x0000000000B66258 0x0000000000B66258 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33997C8 0x0000000000B56208 0x0000000000B5E208 0x0000000000B5E208 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3399700 0x00000242A345CC00 0x00000242A347C630 0x00000242A347CC00 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3399638 0x0000000000B55D18 0x0000000000B561B8 0x0000000000B561B8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3399570 0x00000242A311BF10 0x00000242A311C3E0 0x00000242A311C3E0 0x00020040 0x00000000000004D0
+1STSEGMENT     0x00000242A33994A8 0x0000000000B557F8 0x0000000000B55CC8 0x0000000000B55CC8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A33993E0 0x00000242A2FCBD10 0x00000242A2FCC2F8 0x00000242A2FCC2F8 0x00020040 0x00000000000005E8
+1STSEGMENT     0x00000242A3399318 0x0000000000B55308 0x0000000000B557A8 0x0000000000B557A8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3399250 0x00000242A3120EC0 0x00000242A31213C0 0x00000242A31213C0 0x00020040 0x0000000000000500
+1STSEGMENT     0x00000242A3399188 0x0000000000B54DE8 0x0000000000B552B8 0x0000000000B552B8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A3398770 0x00000242A2FCB6C0 0x00000242A2FCBCC8 0x00000242A2FCBCC8 0x00020040 0x0000000000000608
+1STSEGMENT     0x00000242A33986A8 0x0000000000B548F8 0x0000000000B54D98 0x0000000000B54D98 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A33985E0 0x00000242A3349340 0x00000242A3349858 0x00000242A3349858 0x00020040 0x0000000000000518
+1STSEGMENT     0x00000242A3398518 0x0000000000B54408 0x0000000000B548A8 0x0000000000B548A8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3398450 0x00000242A311FED0 0x00000242A31203A0 0x00000242A31203A0 0x00020040 0x00000000000004D0
+1STSEGMENT     0x00000242A3398388 0x0000000000B53EE8 0x0000000000B543B8 0x0000000000B543B8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A33982C0 0x00000242A33F53A0 0x00000242A33F5988 0x00000242A33F5988 0x00020040 0x00000000000005E8
+1STSEGMENT     0x00000242A33981F8 0x0000000000B539F8 0x0000000000B53E98 0x0000000000B53E98 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3398130 0x00000242A3119F30 0x00000242A311A428 0x00000242A311A428 0x00020040 0x00000000000004F8
+1STSEGMENT     0x00000242A3398068 0x0000000000B4B9A8 0x0000000000B539A8 0x0000000000B539A8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3397650 0x0000000000B43958 0x0000000000B4B958 0x0000000000B4B958 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3397588 0x0000000000B3B908 0x0000000000B43908 0x0000000000B43908 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33974C0 0x0000000000B338B8 0x0000000000B3B8B8 0x0000000000B3B8B8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33973F8 0x00000242A343CBB0 0x00000242A345CA88 0x00000242A345CBB0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3397330 0x0000000000B333C8 0x0000000000B33868 0x0000000000B33868 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3397268 0x00000242A2D1E750 0x00000242A2D1E9A8 0x00000242A2D1EB80 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A33971A0 0x0000000000B2B378 0x0000000000B33378 0x0000000000B33378 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33970D8 0x0000000000B23328 0x0000000000B2B328 0x0000000000B2B328 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3397010 0x00000242A3415D60 0x00000242A3435B58 0x00000242A3435D60 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3396F48 0x0000000000B1B2D8 0x0000000000B232D8 0x0000000000B232D8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3396DC0 0x0000000000B13288 0x0000000000B1B288 0x0000000000B1B288 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3396CF8 0x0000000000B0B238 0x0000000000B13238 0x0000000000B13238 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3396C30 0x00000242A33F5D10 0x00000242A3415BA0 0x00000242A3415D10 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3396B68 0x0000000000B031E8 0x0000000000B0B1E8 0x0000000000B0B1E8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3396AA0 0x0000000000AFB198 0x0000000000B03198 0x0000000000B03198 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A33969D8 0x0000000000AFACA8 0x0000000000AFB148 0x0000000000AFB148 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3396910 0x00000242A2410FA0 0x00000242A2411450 0x00000242A2411450 0x00020040 0x00000000000004B0
+1STSEGMENT     0x00000242A3396848 0x0000000000AFA7B8 0x0000000000AFAC58 0x0000000000AFAC58 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3396780 0x00000242A2D1D070 0x00000242A2D1D520 0x00000242A2D1D520 0x00020040 0x00000000000004B0
+1STSEGMENT     0x00000242A33966B8 0x0000000000AF2768 0x0000000000AFA768 0x0000000000AFA768 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3397EE0 0x00000242A33C5530 0x00000242A33E5040 0x00000242A33E5530 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3397E18 0x0000000000AEA718 0x0000000000AF2718 0x0000000000AF2718 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3397D50 0x00000242A33A31C0 0x00000242A33C2BC8 0x00000242A33C31C0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A3397C88 0x0000000000AEA228 0x0000000000AEA6C8 0x0000000000AEA6C8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3397BC0 0x00000242A2D1E2D0 0x00000242A2D1E528 0x00000242A2D1E700 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A3397AF8 0x0000000000AE9D38 0x0000000000AEA1D8 0x0000000000AEA1D8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3397A30 0x00000242A2D1DE50 0x00000242A2D1E0A8 0x00000242A2D1E280 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A3397968 0x0000000000AE9848 0x0000000000AE9CE8 0x0000000000AE9CE8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A33978A0 0x00000242A2D1D9E0 0x00000242A2D1DC38 0x00000242A2D1DE08 0x00020040 0x0000000000000428
+1STSEGMENT     0x00000242A33977D8 0x0000000000AE9358 0x0000000000AE97F8 0x0000000000AE97F8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A33942F0 0x00000242A2EF48B0 0x00000242A2EF4B08 0x00000242A2EF4CD8 0x00020040 0x0000000000000428
+1STSEGMENT     0x00000242A3394228 0x0000000000AE1308 0x0000000000AE9308 0x0000000000AE9308 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A3394160 0x0000000000AE0E18 0x0000000000AE12B8 0x0000000000AE12B8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3394098 0x00000242A2EF4430 0x00000242A2EF4698 0x00000242A2EF4868 0x00020040 0x0000000000000438
+1STSEGMENT     0x00000242A3393FD0 0x0000000000AE0928 0x0000000000AE0DC8 0x0000000000AE0DC8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3393F08 0x00000242A2EF3FB0 0x00000242A2EF4208 0x00000242A2EF43E0 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A3393E40 0x0000000000AE0438 0x0000000000AE08D8 0x0000000000AE08D8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3393D78 0x00000242A2EF3B40 0x00000242A2EF3D80 0x00000242A2EF3F68 0x00020040 0x0000000000000428
+1STSEGMENT     0x00000242A3393CB0 0x0000000000ADFF48 0x0000000000AE03E8 0x0000000000AE03E8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A3393BE8 0x00000242A2E8ABA0 0x00000242A2E8ADF8 0x00000242A2E8AFD0 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A2FC64C0 0x0000000000AD7EF8 0x0000000000ADFEF8 0x0000000000ADFEF8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC63F8 0x0000000000AD7A08 0x0000000000AD7EA8 0x0000000000AD7EA8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC6330 0x00000242A2E8A720 0x00000242A2E8A978 0x00000242A2E8AB50 0x00020040 0x0000000000000430
+1STSEGMENT     0x00000242A2FC6268 0x0000000000AD7518 0x0000000000AD79B8 0x0000000000AD79B8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC61A0 0x00000242A30BB8A0 0x00000242A30BBAE0 0x00000242A30BBCB8 0x00020040 0x0000000000000418
+1STSEGMENT     0x00000242A2FC60D8 0x0000000000ACF4C8 0x0000000000AD74C8 0x0000000000AD74C8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC6010 0x0000000000AC7478 0x0000000000ACF478 0x0000000000ACF478 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC5F48 0x00000242A3372150 0x00000242A3391660 0x00000242A3392150 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC5E80 0x0000000000ABF428 0x0000000000AC7428 0x0000000000AC7428 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC5DB8 0x0000000000AB73D8 0x0000000000ABF3D8 0x0000000000ABF3D8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC4B10 0x00000242A334A0F0 0x00000242A33698D0 0x00000242A336A0F0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC4A48 0x0000000000AAF388 0x0000000000AB7388 0x0000000000AB7388 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC4980 0x0000000000AAEF88 0x0000000000AAF338 0x0000000000AAF338 0x00010040 0x00000000000003B0
+1STSEGMENT     0x00000242A2FC48B8 0x0000000000AA6F38 0x0000000000AAEF38 0x0000000000AAEF38 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC47F0 0x0000000000AA6A48 0x0000000000AA6EE8 0x0000000000AA6EE8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC4728 0x00000242A30EDB10 0x00000242A30EE030 0x00000242A30EE030 0x00020040 0x0000000000000520
+1STSEGMENT     0x00000242A2FC4660 0x0000000000AA6548 0x0000000000AA69F8 0x0000000000AA69F8 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC4598 0x00000242A3348DB0 0x00000242A33492C0 0x00000242A33492C0 0x00020040 0x0000000000000510
+1STSEGMENT     0x00000242A2FC44D0 0x0000000000AA6048 0x0000000000AA64F8 0x0000000000AA64F8 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC4408 0x00000242A2416AC0 0x00000242A2416F68 0x00000242A2416F68 0x00020040 0x00000000000004A8
+1STSEGMENT     0x00000242A2FC39F0 0x0000000000AA5B28 0x0000000000AA5FF8 0x0000000000AA5FF8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC3928 0x00000242A30ED580 0x00000242A30EDAC0 0x00000242A30EDAC0 0x00020040 0x0000000000000540
+1STSEGMENT     0x00000242A2FC3860 0x0000000000AA5628 0x0000000000AA5AD8 0x0000000000AA5AD8 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC3798 0x00000242A30ED050 0x00000242A30ED530 0x00000242A30ED530 0x00020040 0x00000000000004E0
+1STSEGMENT     0x00000242A2FC36D0 0x0000000000AA5138 0x0000000000AA55D8 0x0000000000AA55D8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC3608 0x00000242A2D3A490 0x00000242A2D3A918 0x00000242A2D3A918 0x00020040 0x0000000000000488
+1STSEGMENT     0x00000242A2FC3540 0x0000000000AA4D38 0x0000000000AA50E8 0x0000000000AA50E8 0x00010040 0x00000000000003B0
+1STSEGMENT     0x00000242A2FC3478 0x0000000000AA47F8 0x0000000000AA4CE8 0x0000000000AA4CE8 0x00010040 0x00000000000004F0
+1STSEGMENT     0x00000242A2FC33B0 0x00000242A30BB2E0 0x00000242A30BB850 0x00000242A30BB850 0x00020040 0x0000000000000570
+1STSEGMENT     0x00000242A2FC32E8 0x0000000000AA42E8 0x0000000000AA47A8 0x0000000000AA47A8 0x00010040 0x00000000000004C0
+1STSEGMENT     0x00000242A2FC3160 0x00000242A2F19F90 0x00000242A2F1A4B0 0x00000242A2F1A4B0 0x00020040 0x0000000000000520
+1STSEGMENT     0x00000242A2FC3098 0x0000000000AA3DE8 0x0000000000AA4298 0x0000000000AA4298 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC2FD0 0x00000242A311E440 0x00000242A311E938 0x00000242A311E938 0x00020040 0x00000000000004F8
+1STSEGMENT     0x00000242A2FC2F08 0x0000000000AA38F8 0x0000000000AA3D98 0x0000000000AA3D98 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC2E40 0x00000242A311F980 0x00000242A311FE50 0x00000242A311FE50 0x00020040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC2D78 0x0000000000AA33D8 0x0000000000AA38A8 0x0000000000AA38A8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC2CB0 0x00000242A30BACB0 0x00000242A30BB298 0x00000242A30BB298 0x00020040 0x00000000000005E8
+1STSEGMENT     0x00000242A2FC2BE8 0x0000000000AA2EE8 0x0000000000AA3388 0x0000000000AA3388 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC2B20 0x00000242A3120420 0x00000242A3120920 0x00000242A3120920 0x00020040 0x0000000000000500
+1STSEGMENT     0x00000242A2FC2A58 0x0000000000A9AE98 0x0000000000AA2E98 0x0000000000AA2E98 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC75E0 0x0000000000A92E48 0x0000000000A9AE48 0x0000000000A9AE48 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC7518 0x0000000000A8ADF8 0x0000000000A92DF8 0x0000000000A92DF8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC7450 0x00000242A3306080 0x00000242A3325F78 0x00000242A3326080 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC7388 0x00000242A32E6030 0x00000242A3305B20 0x00000242A3306030 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC72C0 0x0000000000A82198 0x0000000000A8A198 0x0000000000A8A198 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC71F8 0x0000000000A730A8 0x0000000000A7B0A8 0x0000000000A7B0A8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC7130 0x0000000000A602D0 0x0000000000A682D0 0x0000000000A682D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC7068 0x0000000000A5FCE0 0x0000000000A60280 0x0000000000A60280 0x00010040 0x00000000000005A0
+1STSEGMENT     0x00000242A2FC6FA0 0x00000242A329C090 0x00000242A329C888 0x00000242A329C888 0x00020040 0x00000000000007F8
+1STSEGMENT     0x00000242A2FC6ED8 0x0000000000A5F710 0x0000000000A5FC90 0x0000000000A5FC90 0x00010040 0x0000000000000580
+1STSEGMENT     0x00000242A2FC5C30 0x00000242A329B8E0 0x00000242A329C048 0x00000242A329C048 0x00020040 0x0000000000000768
+1STSEGMENT     0x00000242A2FC5B68 0x0000000000A5F160 0x0000000000A5F6C0 0x0000000000A5F6C0 0x00010040 0x0000000000000560
+1STSEGMENT     0x00000242A2FC5AA0 0x00000242A329B180 0x00000242A329B898 0x00000242A329B898 0x00020040 0x0000000000000718
+1STSEGMENT     0x00000242A2FC59D8 0x0000000000A5EBC0 0x0000000000A5F110 0x0000000000A5F110 0x00010040 0x0000000000000550
+1STSEGMENT     0x00000242A2FC5910 0x00000242A2F40470 0x00000242A2F40B60 0x00000242A2F40B60 0x00020040 0x00000000000006F0
+1STSEGMENT     0x00000242A2FC5848 0x0000000000A5E630 0x0000000000A5EB70 0x0000000000A5EB70 0x00010040 0x0000000000000540
+1STSEGMENT     0x00000242A2FC5780 0x00000242A2F3FD60 0x00000242A2F40420 0x00000242A2F40420 0x00020040 0x00000000000006C0
+1STSEGMENT     0x00000242A2FC56B8 0x0000000000A5E0B0 0x0000000000A5E5E0 0x0000000000A5E5E0 0x00010040 0x0000000000000530
+1STSEGMENT     0x00000242A2FC55F0 0x00000242A2F3F680 0x00000242A2F3FD18 0x00000242A2F3FD18 0x00020040 0x0000000000000698
+1STSEGMENT     0x00000242A2FC5528 0x0000000000A5DB50 0x0000000000A5E060 0x0000000000A5E060 0x00010040 0x0000000000000510
+1STSEGMENT     0x00000242A2FC2040 0x00000242A2F3F000 0x00000242A2F3F638 0x00000242A2F3F638 0x00020040 0x0000000000000638
+1STSEGMENT     0x00000242A2FC1F78 0x0000000000A5D610 0x0000000000A5DB00 0x0000000000A5DB00 0x00010040 0x00000000000004F0
+1STSEGMENT     0x00000242A2FC1EB0 0x00000242A2F3E9C0 0x00000242A2F3EFB8 0x00000242A2F3EFB8 0x00020040 0x00000000000005F8
+1STSEGMENT     0x00000242A2FC1DE8 0x0000000000A5D0E0 0x0000000000A5D5C0 0x0000000000A5D5C0 0x00010040 0x00000000000004E0
+1STSEGMENT     0x00000242A2FC1D20 0x00000242A23498B0 0x00000242A2349E70 0x00000242A2349E70 0x00020040 0x00000000000005C0
+1STSEGMENT     0x00000242A2FC1C58 0x0000000000A5CBC0 0x0000000000A5D090 0x0000000000A5D090 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC1B90 0x00000242A23492D0 0x00000242A2349860 0x00000242A2349860 0x00020040 0x0000000000000590
+1STSEGMENT     0x00000242A2FC1AC8 0x0000000000A5C6B0 0x0000000000A5CB70 0x0000000000A5CB70 0x00010040 0x00000000000004C0
+1STSEGMENT     0x00000242A2FC1A00 0x00000242A2F91810 0x00000242A2F91D70 0x00000242A2F91D70 0x00020040 0x0000000000000560
+1STSEGMENT     0x00000242A2FC1938 0x0000000000A5C1B0 0x0000000000A5C660 0x0000000000A5C660 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC4280 0x00000242A2F91290 0x00000242A2F917C8 0x00000242A2F917C8 0x00020040 0x0000000000000538
+1STSEGMENT     0x00000242A2FC41B8 0x0000000000A5BCD0 0x0000000000A5C160 0x0000000000A5C160 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FC40F0 0x00000242A2F90D80 0x00000242A2F91248 0x00000242A2F91248 0x00020040 0x00000000000004C8
+1STSEGMENT     0x00000242A2FC4028 0x0000000000A53C80 0x0000000000A5BC80 0x0000000000A5BC80 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC3F60 0x0000000000A4BC30 0x0000000000A53C30 0x0000000000A53C30 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC3E98 0x00000242A3273120 0x00000242A3292FF0 0x00000242A3293120 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC3DD0 0x0000000000A43BE0 0x0000000000A4BBE0 0x0000000000A4BBE0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC3D08 0x0000000000A436A0 0x0000000000A43B90 0x0000000000A43B90 0x00010040 0x00000000000004F0
+1STSEGMENT     0x00000242A2FC3C40 0x00000242A2639A90 0x00000242A2639FB8 0x00000242A2639FB8 0x00020040 0x0000000000000528
+1STSEGMENT     0x00000242A2FC3B78 0x0000000000A431B0 0x0000000000A43650 0x0000000000A43650 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC28D0 0x00000242A2639590 0x00000242A2639A40 0x00000242A2639A40 0x00020040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC2808 0x0000000000A42CC0 0x0000000000A43160 0x0000000000A43160 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC2740 0x0000024284D42D10 0x0000024284D43158 0x0000024284D43158 0x00020040 0x0000000000000448
+1STSEGMENT     0x00000242A2FC2678 0x0000000000A427E0 0x0000000000A42C70 0x0000000000A42C70 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FC25B0 0x00000242A30E4BD0 0x00000242A30E4FF8 0x00000242A30E4FF8 0x00020040 0x0000000000000428
+1STSEGMENT     0x00000242A2FC24E8 0x0000000000A422F0 0x0000000000A42790 0x0000000000A42790 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC2420 0x00000242A2639090 0x00000242A2639540 0x00000242A2639540 0x00020040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC2358 0x0000000000A41E00 0x0000000000A422A0 0x0000000000A422A0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC2290 0x00000242A2D3AE30 0x00000242A2D3B2B8 0x00000242A2D3B2B8 0x00020040 0x0000000000000488
+1STSEGMENT     0x00000242A2FC21C8 0x0000000000A418E0 0x0000000000A41DB0 0x0000000000A41DB0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC53A0 0x00000242A2638B30 0x00000242A2639040 0x00000242A2639040 0x00020040 0x0000000000000510
+1STSEGMENT     0x00000242A2FC52D8 0x0000000000A413E0 0x0000000000A41890 0x0000000000A41890 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC5210 0x00000242A31199E0 0x00000242A3119EB0 0x00000242A3119EB0 0x00020040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FC5148 0x0000000000A40EF0 0x0000000000A41390 0x0000000000A41390 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC5080 0x00000242A3121410 0x00000242A31218E8 0x00000242A31218E8 0x00020040 0x00000000000004D8
+1STSEGMENT     0x00000242A2FC4FB8 0x0000000000A40A00 0x0000000000A40EA0 0x0000000000A40EA0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FC4EF0 0x00000242A2D39FC0 0x00000242A2D3A448 0x00000242A2D3A448 0x00020040 0x0000000000000488
+1STSEGMENT     0x00000242A2FC4E28 0x0000000000A40520 0x0000000000A409B0 0x0000000000A409B0 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FC4D60 0x00000242A2D3A960 0x00000242A2D3ADD8 0x00000242A2D3ADD8 0x00020040 0x0000000000000478
+1STSEGMENT     0x00000242A2FC4C98 0x0000000000A40030 0x0000000000A404D0 0x0000000000A404D0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FBB0F0 0x00000242A3120970 0x00000242A3120E70 0x00000242A3120E70 0x00020040 0x0000000000000500
+1STSEGMENT     0x00000242A2FBB028 0x0000000000A3FB40 0x0000000000A3FFE0 0x0000000000A3FFE0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FBAF60 0x00000242A311DEF0 0x00000242A311E3C8 0x00000242A311E3C8 0x00020040 0x00000000000004D8
+1STSEGMENT     0x00000242A2FBAE98 0x0000000000A3F660 0x0000000000A3FAF0 0x0000000000A3FAF0 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FBADD0 0x00000242A2D33F80 0x00000242A2D343E8 0x00000242A2D343E8 0x00020040 0x0000000000000468
+1STSEGMENT     0x00000242A2FBAD08 0x0000000000A3F160 0x0000000000A3F610 0x0000000000A3F610 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FBAC40 0x00000242A2637DB0 0x00000242A26382D8 0x00000242A26382D8 0x00020040 0x0000000000000528
+1STSEGMENT     0x00000242A2FBAB78 0x0000000000A37110 0x0000000000A3F110 0x0000000000A3F110 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FBAAB0 0x0000000000A2F0C0 0x0000000000A370C0 0x0000000000A370C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FBA9E8 0x0000000000A27070 0x0000000000A2F070 0x0000000000A2F070 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC17B0 0x0000000000A1F020 0x0000000000A27020 0x0000000000A27020 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC16E8 0x0000000000A16FD0 0x0000000000A1EFD0 0x0000000000A1EFD0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC1620 0x0000000000A0EF80 0x0000000000A16F80 0x0000000000A16F80 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC1558 0x00000242A323B0A0 0x00000242A3245D08 0x00000242A324B0A0 0x00020040 0x0000000000010000
+1STSEGMENT     0x00000242A2FC1490 0x0000000000A06F30 0x0000000000A0EF30 0x0000000000A0EF30 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC13C8 0x00000000009FEEE0 0x0000000000A06EE0 0x0000000000A06EE0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC1300 0x00000000009F6E90 0x00000000009FEE90 0x00000000009FEE90 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC1238 0x00000000009F2E40 0x00000000009F6E40 0x00000000009F6E40 0x00010040 0x0000000000004000
+1STSEGMENT     0x00000242A2FC1170 0x00000242A3228C00 0x00000242A322FBE0 0x00000242A3230C00 0x00020040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC10A8 0x00000000009F0DF0 0x00000000009F2DF0 0x00000000009F2DF0 0x00010040 0x0000000000002000
+1STSEGMENT     0x00000242A2FC0F20 0x00000242A3208BB0 0x00000242A3228A20 0x00000242A3228BB0 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FC0E58 0x00000000009E8DA0 0x00000000009F0DA0 0x00000000009F0DA0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC0D90 0x00000000009E87D0 0x00000000009E8D50 0x00000000009E8D50 0x00010040 0x0000000000000580
+1STSEGMENT     0x00000242A2FC0CC8 0x00000242A30FF900 0x00000242A3100080 0x00000242A3100080 0x00020040 0x0000000000000780
+1STSEGMENT     0x00000242A2FC0C00 0x00000000009E8220 0x00000000009E8780 0x00000000009E8780 0x00010040 0x0000000000000560
+1STSEGMENT     0x00000242A2FC0B38 0x00000242A30FF1C0 0x00000242A30FF8B8 0x00000242A30FF8B8 0x00020040 0x00000000000006F8
+1STSEGMENT     0x00000242A2FC0A70 0x00000000009E7C90 0x00000000009E81D0 0x00000000009E81D0 0x00010040 0x0000000000000540
+1STSEGMENT     0x00000242A2FC09A8 0x00000242A30FEAD0 0x00000242A30FF178 0x00000242A30FF178 0x00020040 0x00000000000006A8
+1STSEGMENT     0x00000242A2FC08E0 0x00000000009E7710 0x00000000009E7C40 0x00000000009E7C40 0x00010040 0x0000000000000530
+1STSEGMENT     0x00000242A2FC0818 0x00000242A2E8B830 0x00000242A2E8BEA8 0x00000242A2E8BEA8 0x00020040 0x0000000000000678
+1STSEGMENT     0x00000242A2FB9740 0x00000000009E71A0 0x00000000009E76C0 0x00000000009E76C0 0x00010040 0x0000000000000520
+1STSEGMENT     0x00000242A2FB9678 0x00000242A2E8B1A0 0x00000242A2E8B7E8 0x00000242A2E8B7E8 0x00020040 0x0000000000000648
+1STSEGMENT     0x00000242A2FB95B0 0x00000000009E6C50 0x00000000009E7150 0x00000000009E7150 0x00010040 0x0000000000000500
+1STSEGMENT     0x00000242A2FB94E8 0x00000242A2492660 0x00000242A2492C58 0x00000242A2492C58 0x00020040 0x00000000000005F8
+1STSEGMENT     0x00000242A2FB9420 0x00000000009E6720 0x00000000009E6C00 0x00000000009E6C00 0x00010040 0x00000000000004E0
+1STSEGMENT     0x00000242A2FB9358 0x00000242A2492060 0x00000242A2492610 0x00000242A2492610 0x00020040 0x00000000000005B0
+1STSEGMENT     0x00000242A2FB9290 0x00000000009E6200 0x00000000009E66D0 0x00000000009E66D0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FB91C8 0x00000242A2491A90 0x00000242A2492010 0x00000242A2492010 0x00020040 0x0000000000000580
+1STSEGMENT     0x00000242A2FB9100 0x00000000009E5CF0 0x00000000009E61B0 0x00000000009E61B0 0x00010040 0x00000000000004C0
+1STSEGMENT     0x00000242A2FB9038 0x00000242A2636A50 0x00000242A2636FA0 0x00000242A2636FA0 0x00020040 0x0000000000000550
+1STSEGMENT     0x00000242A2FC0690 0x00000000009E57F0 0x00000000009E5CA0 0x00000000009E5CA0 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC05C8 0x00000242A2F1D310 0x00000242A2F1D838 0x00000242A2F1D838 0x00020040 0x0000000000000528
+1STSEGMENT     0x00000242A2FC0500 0x00000000009E5310 0x00000000009E57A0 0x00000000009E57A0 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FC0438 0x00000242A31040B0 0x00000242A3104560 0x00000242A3104560 0x00020040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FC0370 0x00000000009DD2C0 0x00000000009E52C0 0x00000000009E52C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC02A8 0x00000242A30FAA80 0x00000242A30FD5B8 0x00000242A30FEA80 0x00020040 0x0000000000004000
+1STSEGMENT     0x00000242A2FC01E0 0x00000000009D5270 0x00000000009DD270 0x00000000009DD270 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC0118 0x00000000009CD220 0x00000000009D5220 0x00000000009D5220 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FC0050 0x00000242A31D1B40 0x00000242A31F1B08 0x00000242A31F1B40 0x00020040 0x0000000000020000
+1STSEGMENT     0x00000242A2FBFF88 0x00000000009C51D0 0x00000000009CD1D0 0x00000000009CD1D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x00000242A2FB9FD0 0x00000000009C4D10 0x00000000009C5180 0x00000000009C5180 0x00010040 0x0000000000000470
+1STSEGMENT     0x00000242A2FB9F08 0x00000242A2CF4370 0x00000242A2CF4838 0x00000242A2CF4838 0x00020040 0x00000000000004C8
+1STSEGMENT     0x00000242A2FB9E40 0x00000000009C47F0 0x00000000009C4CC0 0x00000000009C4CC0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x00000242A2FB9D78 0x00000242A2F1CCB0 0x00000242A2F1D2C8 0x00000242A2F1D2C8 0x00020040 0x0000000000000618
+1STSEGMENT     0x00000242A2FB9CB0 0x00000000009C42F0 0x00000000009C47A0 0x00000000009C47A0 0x00010040 0x00000000000004B0
+1STSEGMENT     0x00000242A2FB9BE8 0x00000242A2F1C6E0 0x00000242A2F1CC68 0x00000242A2F1CC68 0x00020040 0x0000000000000588
+1STSEGMENT     0x00000242A2FB9B20 0x00000000009C3E10 0x00000000009C42A0 0x00000000009C42A0 0x00010040 0x0000000000000490
+1STSEGMENT     0x00000242A2FB9A58 0x00000242A2F1C160 0x00000242A2F1C690 0x00000242A2F1C690 0x00020040 0x0000000000000530
+1STSEGMENT     0x00000242A2FB9990 0x00000000009C3920 0x00000000009C3DC0 0x00000000009C3DC0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FB98C8 0x00000242A2F1BB60 0x00000242A2F1C118 0x00000242A2F1C118 0x00020040 0x00000000000005B8
+1STSEGMENT     0x00000242A2FB8EB0 0x00000000009C3350 0x00000000009C38D0 0x00000000009C38D0 0x00010040 0x0000000000000580
+1STSEGMENT     0x00000242A2FB8DE8 0x00000242A2F1B390 0x00000242A2F1BB18 0x00000242A2F1BB18 0x00020040 0x0000000000000788
+1STSEGMENT     0x00000242A2FB8D20 0x00000000009C2E60 0x00000000009C3300 0x00000000009C3300 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FB8C58 0x00000242A2F1AC70 0x00000242A2F1B348 0x00000242A2F1B348 0x00020040 0x00000000000006D8
+1STSEGMENT     0x00000242A2FB8B90 0x00000000009C28A0 0x00000000009C2E10 0x00000000009C2E10 0x00010040 0x0000000000000570
+1STSEGMENT     0x00000242A2FB8AC8 0x00000242A1FD41B0 0x00000242A1FD4908 0x00000242A1FD4908 0x00020040 0x0000000000000758
+1STSEGMENT     0x00000242A2FB8A00 0x00000000009C23B0 0x00000000009C2850 0x00000000009C2850 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FB8938 0x00000242A2F1A570 0x00000242A2F1AC28 0x00000242A2F1AC28 0x00020040 0x00000000000006B8
+1STSEGMENT     0x00000242A2FB8870 0x00000000009C1E00 0x00000000009C2360 0x00000000009C2360 0x00010040 0x0000000000000560
+1STSEGMENT     0x00000242A2FB87A8 0x00000242A3118F80 0x00000242A31196A8 0x00000242A31196A8 0x00020040 0x0000000000000728
+1STSEGMENT     0x00000242A2FBB980 0x00000000009C1910 0x00000000009C1DB0 0x00000000009C1DB0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FBB8B8 0x00000242A31188A0 0x00000242A3118F30 0x00000242A3118F30 0x00020040 0x0000000000000690
+1STSEGMENT     0x00000242A2FBB7F0 0x00000000009C1370 0x00000000009C18C0 0x00000000009C18C0 0x00010040 0x0000000000000550
+1STSEGMENT     0x00000242A2FBB728 0x00000242A3118150 0x00000242A3118850 0x00000242A3118850 0x00020040 0x0000000000000700
+1STSEGMENT     0x00000242A2FBB660 0x00000000009C0E80 0x00000000009C1320 0x00000000009C1320 0x00010040 0x00000000000004A0
+1STSEGMENT     0x00000242A2FBB598 0x00000242A3117AA0 0x00000242A3118108 0x00000242A3118108 0x00020040 0x0000000000000668
+1STSEGMENT     0x00000242A2FBB4D0 0x00000000009C08F0 0x00000000009C0E30 0x00000000009C0E30 0x00010040 0x0000000000000540
+1STSEGMENT     0x00000242A2FBB408 0x00000242A3117380 0x00000242A3117A50 0x00000242A3117A50
